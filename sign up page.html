@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up - PharmaCare Store</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f8f9fa; }
+    header { display: flex; align-items: center; background: #0077b6; color: white; padding: 15px; }
+    nav { display: flex; gap: 15px; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .store-name { flex: 1; text-align: center; font-size: 28px; font-weight: bold; }
+    .content { padding: 50px; text-align: center; }
+    form { display: inline-block; background: white; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+    input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+    .btn { display: inline-block; padding: 10px 20px; background: #0077b6; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    .btn:hover { background: #005f86; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+<a href="index.html">Home</a>
+      <a href="medicines.html">Medicines</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+    </nav>
+    <div class="store-name">PharmaCare Store</div>
+  </header>
+
+  <div class="content">
+    <h2>Sign Up</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+      <button type="submit" class="btn">Create Account</button>
+    </form>
+  </div>
+</body>
+</html>
